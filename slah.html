@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الحرمين للهدايا</title>
+    <style>
+        /* الخطوط الأساسية */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            direction: rtl;
+            text-align: right;
+            background-color: #f8f8f8;
+        }
+
+        /* رأس الصفحة */
+        header {
+            background: #3e3e3e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #d4d4d4;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1rem;
+        }
+
+        /* شريط التنقل */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            background: brown;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0;
+        }
+
+        nav ul li a {
+            color: white;
+            padding: 15px 25px;
+            display: block;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        nav ul li a:hover {
+            background: #575757;
+        }
+
+        /* المحتوى */
+        main {
+            padding: 20px;
+            background: white;
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        section h2 {
+            color: #333;
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        /* تذييل الصفحة */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            font-size: 1rem;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* تحسين العرض على الأجهزة المحمولة */
+        @media screen and (max-width: 768px) {
+            header h1 {
+                font-size: 1.6rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+            }
+
+            section {
+                padding: 15px;
+            }
+
+            footer {
+                font-size: 0.9rem;
+            }
+        }
+
+        /* تحسين العرض على الشاشات الصغيرة جداً */
+        @media screen and (max-width: 480px) {
+            header h1 {
+                font-size: 1.4rem;
+            }
+
+            nav ul li a {
+                padding: 10px 20px;
+                font-size: 1rem;
+            }
+
+            footer {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>الحرمين للهدايا</h1>
+        <p>عطورات - إكسسوارات - سبح - شنط - أدوات تجميل - تحف - ساعات</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#perfumes">عطورات</a></li>
+            <li><a href="#accessories">إكسسوارات</a></li>
+            <li><a href="#tasbih">سبح</a></li>
+            <li><a href="#bags">شنط</a></li>
+            <li><a href="#beauty">أدوات تجميل</a></li>
+            <li><a href="#decor">تحف</a></li>
+            <li><a href="#watches">ساعات</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="perfumes">
+            <h2>عطورات</h2>
+            <p>أفضل أنواع العطور الشرقية والغربية.</p>
+        </section>
+        <section id="accessories">
+            <h2>إكسسوارات</h2>
+            <p>مجموعة متنوعة من الإكسسوارات الأنيقة.</p>
+        </section>
+        <section id="tasbih">
+            <h2>سبح</h2>
+            <p>سبح جميلة مصنوعة بدقة.</p>
+        </section>
+        <section id="bags">
+            <h2>شنط</h2>
+            <p>أجود أنواع الحقائب العصرية.</p>
+        </section>
+        <section id="beauty">
+            <h2>أدوات تجميل</h2>
+            <p>أدوات تجميل لمختلف الاحتياجات.</p>
+        </section>
+        <section id="decor">
+            <h2>تحف</h2>
+            <p>تحف فنية تضيف جمالاً لمنزلك.</p>
+        </section>
+        <section id="watches">
+            <h2>ساعات</h2>
+            <p>ساعات أنيقة للرجال والنساء.</p>
+        </section>
+    </main>
+    <footer>
+        <p>المدينة المنورة - المنطقة المركزية - الجنوبية - تحت فندق براديس - مقابل ممشى قباء - مقابل مسجد عمر</p>
+        <p>جوال: <a href="tel:+966560510204">+966 56 051 0204</a> | <a href="https://wa.me/966560510204">واتساب</a></p>
+    </footer>
+</body>
+</html>
