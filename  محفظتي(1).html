@@ -1,0 +1,287 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صفحة ملفي الشخصي</title>
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+header img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin-top: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق الأقسام */
+section {
+    padding: 30px;
+    margin: 30px 0;
+}
+
+section h2 {
+    color: #007bff;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+section p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+/* تنسيق قائمة المشاريع */
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+ul li:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+ul li img {
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+
+ul li img:hover {
+    transform: scale(1.1);
+}
+
+ul li h3 {
+    margin: 0;
+    color: #007bff;
+    font-size: 1.3rem;
+}
+
+ul li p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007bff;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* تنسيق قائمة المهارات */
+#skills ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+
+/* تنسيق الشهادات */
+#certificates img {
+    border-radius: 8px;
+    margin-top: 20px;
+    width: 250px;
+    max-width: 100%;
+}
+
+/* تنسيق الفوتر */
+footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    color: #555;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* تنسيق الروابط */
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* الوسائط المتجاوبة */
+@media (max-width: 768px) {
+    header img {
+        width: 90px;
+        height: 90px;
+    }
+
+    section h2 {
+        font-size: 1.4rem;
+    }
+
+    ul li {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+    }
+
+    ul li img {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    #skills li {
+        font-size: 0.9rem;
+    }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>عاصم الحكمي</h1>
+  <p>مطور ويب متخصص في تصميم واجهات الويب المتجاوبة</p>
+  <img src="https://i.postimg.cc/8sQqY9CH/asim.jpg" alt="عاصم الحكمي - صورة شخصية" width="120">
+</header>
+
+<section id="about">
+  <h2>نبذة عني</h2>
+  <p>
+    مرحباً! أنا عاصم الحكمي، مطور ويب مبتدئ. لدي خبرة في تصميم واجهات ويب متجاوبة، وأمتلك مهارات متكاملة في HTML وCSS.  
+    أحب العمل على مشاريع ويب مبتكرة وأهدف إلى تطوير تجارب مستخدم رائعة.
+  </p>
+</section>
+
+<section id="projects">
+  <h2>بعض المشاريع</h2>
+  <ul> 
+    <li>
+      <img src="https://i.postimg.cc/jjKyj5GQ/Screenshot.png" alt="مشروع تعريفي">
+      <h3>المشروع الأول</h3>
+      <p>مشروع تعريفي عني تم استخدام HTML وCSS لتصميمه.</p>
+      <a href="https://github.com/username/project1" target="_blank">رابط الكود على GitHub</a>
+    </li>
+    <li>
+      <img src="https://i.postimg.cc/xTF3RMcs/Screenshot.png" alt="مشروع شهادة تقديرية">
+      <h3>المشروع الثاني</h3>
+      <p>مشروع بسيط لإنشاء شهادة تقديرية.</p>
+    </li>
+    <li>
+      <img src="https://i.postimg.cc/TYRWDw0t/Screenshot.png" alt="صفحة متجر">
+      <h3>المشروع الثالث</h3>
+      <p>صفحة لمتجر إلكتروني.</p>
+    </li>
+  </ul>
+</section>
+
+<section id="skills">
+  <h2>المهارات</h2>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+</section>
+
+<section id="certificates">
+  <h2>الشهادات</h2>
+  <p>
+    حاصل على شهادة تصميم الويب المستجيب من موقع فري كود كامب.
+    <img src="https://i.postimg.cc/Qt6KkSvM/Screenshot.png" alt="شهادة تصميم الويب">
+  </p>
+</section>
+
+<footer>
+  <p>&copy; 2025 عاصم الحكمي. جميع الحقوق محفوظة.</p>
+  <ul>
+    <li><a href="#top">العودة إلى الأعلى</a></li>
+    <li><a href="mailto:alhkmyasm715@gmail.com">التواصل</a></li>
+    <li><a href="https://www.facebook.com/profile.php?id=100013473130301" target="_blank">فيسبوك</a></li>
+    <li><a href="https://wa.me/+967772947357" target="_blank">واتساب</a></li>
+  </ul>
+</footer>
+</body>
+</html>
