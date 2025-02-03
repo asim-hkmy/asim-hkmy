@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض أعمال عاصم</title>
+    <meta name="description" content="معرض أعمال عاصم - مطور ويب متخصص في تصميم مواقع ويب متجاوبة باستخدام HTML وCSS وJavaScript.">
+    <style>
+        /* تنسيق عام */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .project {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .project img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .project img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 5px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- العنوان -->
+    <header>
+        <h1>معرض أعمال عاصم</h1>
+        <p>استعراض لبعض المشاريع التي عملت عليها في مجال تطوير الويب</p>
+    </header>
+
+    <!-- القائمة -->
+    <nav>
+        <a href="#about">عني</a>
+        <a href="#portfolio">معرض الأعمال</a>
+        <a href="#skills">المهارات</a>
+        <a href="#contact">التواصل</a>
+    </nav>
+
+    <!-- الصفحة الرئيسية -->
+    <section id="about">
+        <h2>مرحبًا، أنا عاصم</h2>
+        <p>مطور ويب مهتم بإنشاء مواقع ويب حديثة ومتجاوبة باستخدام HTML وCSS وJavaScript.</p>
+    </section>
+
+    <!-- معرض الأعمال -->
+    <section id="portfolio">
+        <h2>معرض الأعمال</h2>
+        <div class="project">
+            <h3>مشروع 1: موقع شخصي</h3>
+            <p>تم تطوير هذا الموقع لعرض الأعمال الشخصية والمهارات التقنية. يعتمد على HTML وCSS بتصميم بسيط وسهل التصفح.</p>
+            <img src="https://i.suar.me/n4J3E/l" alt="مشروع 1">
+            <a href="https://github.com/username/project1" target="_blank">عرض الكود على GitHub</a>
+        </div>
+        <div class="project">
+            <h3>مشروع 2: موقع لشركة ناشئة</h3>
+            <p>تصميم موقع تعريفي لشركة ناشئة باستخدام HTML وCSS مع تحسينات لتجربة المستخدم.</p>
+            <img src="https://i.suar.me/Lx41E/l" alt="مشروع 2">
+            <a href="https://github.com/username/project2" target="_blank">عرض الكود على GitHub</a>
+        </div>
+    </section>
+
+    <!-- المهارات -->
+    <section id="skills" class="skills">
+        <h2>المهارات</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>تصميم مواقع متجاوبة</li>
+        </ul>
+    </section>
+
+    <!-- التواصل -->
+    <section id="contact">
+        <h2>التواصل</h2>
+        <p>إذا كنت مهتمًا بمناقشة مشروع أو لديك أي استفسار، يمكنك التواصل معي عبر البريد الإلكتروني.</p>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="اسمك" required>
+            <input type="email" id="email" placeholder="بريدك الإلكتروني" required>
+            <textarea id="message" rows="5" placeholder="رسالتك" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>&copy; 2025 عاصم - جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('تم إرسال رسالتك بنجاح.');
+        });
+    </script>
+
+</body>
+</html>
