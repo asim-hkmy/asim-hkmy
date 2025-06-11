@@ -1,40 +1,58 @@
+Welcome to My GitHub Page 👋
 
-# 👋 أهلاً وسهلاً بكم في صفحتي على GitHub  
+Hi there! I'm Asim Al-Hakmi, a passionate front-end web developer in progress. I'm committed to learning and growing every day to build beautiful and functional websites.
 
-مرحباً! أنا **عاصم الحكمي**، مطور ويب مبتدئ أعمل على تطوير مهاراتي في بناء مواقع الويب الجميلة والوظيفية.  
 
-## 🌟 عني  
-- 🧑‍💻 **حالياً أتعلم:**  
-  أركز على تعلم **HTML** و**CSS** و**JavaScript**، وأطمح لأن أصبح مطور ويب محترف.  
-
-- 🎯 **أهدافي:**  
-  - إنشاء مواقع احترافية ومتجاوبة.  
-  - المساهمة في مشاريع مفتوحة المصدر.  
-  - بناء مسيرة مهنية ناجحة في مجال تطوير الويب.  
-
-- 💡 **معلومة ممتعة:**  
-  أحب التعلم المستمر وحل المشكلات بطرق إبداعية.  
-
-## 📚 مهاراتي  
-- **اللغات والتقنيات التي أتعلمها:**  
-  - HTML  
-  - CSS  
-  - أساسيات JavaScript  
-
-- **أهدافي المستقبلية:**  
-  - تعلم تصميم المواقع المتجاوبة باستخدام Flexbox وGrid.  
-  - استخدام أطر العمل مثل React.  
-  - التعرف على تطوير الخلفية باستخدام Node.js.  
-
-## 🤝 كيف تتواصل معي  
-أحب التعاون مع الآخرين ومشاركة الأفكار. يمكنك التواصل معي عبر:  
-- 📧 البريد الإلكتروني: [Alhkmyasm715@gmail.com](mailto:Alhkmyasm715@gmail.com)  
-- 🌐 صفحتي على فيسبوك: [Facebook Profile](https://www.facebook.com/profile.php?id=100013473130301)  
-- 📱 رقم الواتساب: [+967772947357](https://wa.me/967772947357)  
 ---
 
-أرحب دائماً بالأفكار الجديدة والتعاون. لنصنع معاً شيئاً مميزاً
-<!---
-asim-hkmy/asim-hkmy is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+🌟 About Me
+
+🔧 I'm currently improving my front-end development skills using HTML, CSS, and JavaScript, and gradually diving into modern frameworks like React and Node.js.
+
+🚀 Over the past few months, I’ve built several projects and started assembling my portfolio to showcase my work.
+
+
+---
+
+🎯 My Current Goals
+
+Master layout design with Flexbox and CSS Grid
+
+Learn React for building interactive user interfaces
+
+Explore Node.js to understand back-end fundamentals
+
+Launch and grow my freelance services on various platforms
+
+
+
+---
+
+💡 Fun Fact
+
+I love self-learning and enjoy solving problems in creative and unconventional ways. Life hasn't been easy, but I keep rising and moving forward!
+
+
+---
+
+🛠️ Skills & Technologies
+
+✅ HTML
+
+✅ CSS
+
+✅ JavaScript (Basics)
+
+🚧 React (Learning)
+
+🚧 Node.js (Learning)
+
+
+
+---
+
+🤝 Get in Touch
+
+📧 Email: Alhkmyasm715@gmail.com
+🌐 Facebook Page: Main Page on Facebook
+📱 WhatsApp: +967772947357
